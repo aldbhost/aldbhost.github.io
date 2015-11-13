@@ -59,17 +59,24 @@ h5 a:hover {
 }
 #header h1 {
   float: left;
-  padding-left: 40px;
-  background: url(../images/logo.png) 0 15px no-repeat;
+  width: 250px;
+  padding-left: 10px;
+  /* background: url(../images/logo.png) 0 15px no-repeat; */
+  background: url(../images/logo.png) 130px 0px;
+  background-size: 115px 45px;
+  background-repeat: no-repeat;
+  /* background-size: 80px 3px; */
   color: #ffffff;
 }
 #header h1 a {
-  font: 700 44px/44px 'Open Sans', sans-serif;
+  font: 700 44px/44px 'Open Sans', Bodoni;
+  /* font: 700 44px/44px 'Open Sans', sans-serif; */
   color: #ffffff;
 }
 #header h1 span {
   display: block;
-  font: 24px/24px 'Marvel', sans-serif;
+  font: 24px/24px 'Marvel', Bodoni;
+  /* font: 24px/24px 'Marvel', sans-serif; */
 }
 #header nav {
   float: right;
@@ -472,7 +479,9 @@ p {
   font-family: 'Marvel', sans-serif;
   color: #312f2f;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
+  height: 50px;
+  /* margin-top: 40px; */
 }
 .index .block-5 {
   padding: 120px 0 70px;
