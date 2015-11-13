@@ -1,6 +1,6 @@
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:700,400,300);
-@import url(//fonts.googleapis.com/css?family=Marvel:400,700);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
+@import url(http://fonts.googleapis.com/css?family=Marvel:400,700);
 /* =======================================================
 					variables
 ======================================================== */
@@ -711,7 +711,7 @@ p {
 =========================================================*/
 #footer {
   background: #d94d3a;
-  padding: 100px 0 0;
+  padding: 10px 0 0;
   color: #000000;
 }
 #footer a {
