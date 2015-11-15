@@ -313,6 +313,14 @@ p {
 .img_container {
   overflow: hidden;
 }
+.img_container_about {
+  overflow: hidden;
+}
+/* .img_about { */
+/*     height: 50px; */
+/*     overflow: hidden; */
+/* } */
+
 .img_container img {
   width: 100%;
 }
