@@ -314,12 +314,24 @@ p {
   overflow: hidden;
 }
 .img_container_about {
-  overflow: hidden;
+    float: left;
+    height: 500px;
+    width: 500px;
+    display: inline;
 }
 /* .img_about { */
 /*     height: 50px; */
 /*     overflow: hidden; */
 /* } */
+.about_container {
+    width: 100%;
+    height: 700px;
+}
+
+.about {
+    /* float: right; */
+    /* display: inline-flex; */
+}
 
 .img_container img {
   width: 100%;
