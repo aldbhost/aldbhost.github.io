@@ -16,28 +16,12 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/jquery.stellar.js"></script>
 	<script src="js/script.js"></script>
-	<!--[if (gt IE 9)|!(IE)]><!-->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/wow.js"></script>
-	<script>
-		$(document).ready(function () {
-			if ($('html').hasClass('desktop')) {
-				new WOW().init();
-			}
-		});
-	</script>
-	<!--<![endif]-->
-	<!--[if lt IE 8]>
+
 	<div style=' clear: both; text-align:center; position: relative;'>
 	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
 		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
 	 </a>
 	</div>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-	<![endif]-->
 	</head>
 <body class="index">
 <!--==============================header=================================-->
@@ -120,38 +104,6 @@
 		</div>
 	</div>
 </footer>
-<script type="text/javascript">
-	google_api_map_init();
-	function google_api_map_init(){
-		var map;
-		var coordData = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030,12));
-		var markCoord1 = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030));
-		var marker;
-		
-		function initialize() {
-			var mapOptions = {
-				zoom: 14,
-				center: coordData,
-				scrollwheel: false,
-			}
 
-			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-			
-			marker = new google.maps.Marker({
-				map:map,
-				position: markCoord1,
-			});
-
-			google.maps.event.addDomListener(window, 'resize', function() {
-				map.setCenter(coordData);
-				var center = map.getCenter();
-			});
-		}
-
-		google.maps.event.addDomListener(window, "load", initialize); 
-
-	}
-
-</script>
 </body>
 </html>
